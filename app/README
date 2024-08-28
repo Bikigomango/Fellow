@@ -1,0 +1,550 @@
+{/* <Button   variant={'secondary'} size={'lg'} textClassName='' >
+        Special button
+      </Button> */}
+
+
+      {/* <Input placeholder='Enter your name here' className='text-lg'/> */}
+
+
+                                                  {/* //////    CARD COMPONENT   SUBJECT AND HOURS */}
+
+      {/* <Card className=''>
+        <CardHeader className=''>
+          <RNText className='w-4 h-4 rounded-full bg-red-400'></RNText>
+          <CardTitle>Mathamatics</CardTitle>
+        </CardHeader>
+        <CardFooter>
+          <RNText>Hour 1</RNText>
+          <RNText>Hour 2</RNText>
+        </CardFooter>
+      </Card> */}
+
+
+
+                            //////  THIS IS THE LONG SUBJECT CARD 
+
+
+      
+                          //   <Card className='w-full bg-primary_foreground gap-6 px-5 py-3'>
+                          //   <CardHeader className="gap-3 flex-row items-center p-0">
+                          //     <Text className='w-3.5 h-3.5 rounded-full bg-green-300'></Text>
+                          //     <CardTitle className='text-md'>Mathamatics</CardTitle>
+                          //     <CardTitle className='text-md text-secondary_foreground'>15CS10T</CardTitle>
+                          //   </CardHeader>
+                          //   <CardFooter className='justify-start p-0 gap-3'>
+                          //     <CircleUserRound color={'black'} size={14}/>
+                          //     <CardTitle className='text-md text-secondary_foreground'>Narayan R</CardTitle>
+                          //   </CardFooter>
+                          // </Card>
+                   
+
+    //                     //// dashborad
+           
+
+    // //  <Dashboard className='justify-between'>
+    //   //   {/* <DashboardImage imageSrc={'https://cdn1.vectorstock.com/i/1000x1000/28/30/rocket-icon-in-white-on-black-circle-symbol-vector-21692830.jpg'}/> */}
+    //   //   <Image 
+    //   //   source={Icon}
+    //   //   className='w-full h-full'
+    //   //   />
+    //   //   <DashboardLabel>
+    //   //     KSIT
+    //   //   </DashboardLabel>
+    //   //     <BellIcon size={24} color={'black'}/>
+    //   //  </Dashboard>
+  
+  
+
+    
+
+      
+    //   // <Nav>
+
+    // const screens = {
+    //   one: Overview,
+    //   two: Attendance,
+    //   three: Notes,
+    //   four: Assignments,
+    // };
+
+    //   //   <NavMenu indicatorColor={'purple'} >
+    //   //     Dsashboard
+    //   //   </NavMenu>
+    //   //   <NavMenu indicatorColor={'purple'}>
+    //   //     Syllabus
+    //   //   </NavMenu>
+    //   //   <NavMenu indicatorColor={'purple'} >
+    //   //     Curiculam
+    //   //   </NavMenu>
+    //   //   <NavMenu indicatorColor={'purple'} >
+    //   //     Practicals
+    //   //   </NavMenu>
+    //   // </Nav>
+
+
+
+
+
+
+
+    //   ///////////////////     PERCENTAGE  CARD WITH PROGRESS BAR    
+
+//     <Card className='p-4 gap-5'>
+//     <CardHeader className="py-0">
+//         <CardTitle className="text-xl">Overall Sessions</CardTitle>
+//     </CardHeader>
+//     <CardHeader className='flex-row py-0 gap-2 items-center'>
+//     <CardTitle className="text-2xl p-0">15/30</CardTitle>
+//     <CardTitle className='font-medium p-0'>(50%)</CardTitle>
+//     </CardHeader>
+//     <CardFooter className='flex flex-col justify-start items-start gap-2 '>
+//         <CardDescription className="text-secondary_foreground">Completed Sessions by Overall sessions</CardDescription>
+//      <Progress value={87} asChild={true} indicatorClassName=''/>
+//     </CardFooter>
+// </Card> 
+
+
+
+
+    //     ////////////     circular page 
+
+
+      //   <Card className="gap-0">
+      //   <CardHeader className="border-b border-border flex-row gap-4 justify-between  items-center">
+      //     <View className="flex-row items-center justify-start gap-4">
+      //       <Image
+      //         source={require("../../assets/images/pdf_icon.webp")}
+      //         style={{ width: 24, height: 24 }}
+      //       />
+      //       <CardTitle className="font-medium text-md">
+      //         Chapter 1 Foundations of Mathematics
+      //       </CardTitle>
+      //     </View>
+      //     <View className="border border-border rounded-lg p-1">
+      //       <Download size={15} color={"gray"} />
+      //     </View>
+      //   </CardHeader>
+      //   <CardContent className="h-28 justify-center items-center px-4">
+      //     {/* <Image source={require("../../assets/images/pdf_icon.webp")} style={{width:'100%' , height:'100%' ,}} /> */}
+
+      //     <Text className="text-md text-secondary_foreground">
+      //       Scholarships are financial awards provided to students to support
+      //       their education. They are typically awarded based on various
+      //       criteria such as academic merit, financial need, leadership skills,
+      //       community service.
+      //     </Text>
+      //   </CardContent>
+      //   <CardFooter className=" flex-row justify-start items-center  py-1 gap-2 border-t border-border">
+      //     <Avatar
+      //       alt="Zach Nugent's Avatar "
+      //       asChild={false}
+      //       className="bg-gray-200 size-6"
+      //     >
+      //       <AvatarImage source={{ uri: GITHUB_AVATAR_URI }} />
+      //       <AvatarFallback>
+      //         <Text className="text-red-400">ZN</Text>
+      //       </AvatarFallback>
+      //     </Avatar>
+      //     <View className="flex-row gap-2">
+      //       <CardTitle className="text-sm text-secondary_foreground">
+      //         Uploaded by Narayan R
+      //       </CardTitle>
+      //       <CardTitle className="text-sm text-secondary_foreground">
+      //         Jan 24, 2024
+      //       </CardTitle>
+      //     </View>
+      //   </CardFooter>
+      // </Card>
+
+
+
+    
+
+    {/* ////   SUBJECT  ATTENDANCE PERCENTAGE   */}
+
+  //   <Card className="w-52 px-3 py-3 gap-2">
+  //   <CardHeader className="p-0">
+  //     <CardTitle className="p-0 text-xl">69%</CardTitle>
+  //   </CardHeader>
+  //   <CardFooter className="p-0">
+  //     <CardTitle className="p-0 text-md text-secondary_foreground">Total Sessions - 100</CardTitle>
+  //   </CardFooter>
+  //   <CardFooter className="p-0">
+  //     <CardTitle className="p-0 text-md text-secondary_foreground">Sessions Present - 69</CardTitle>
+  //   </CardFooter>
+  // </Card>
+
+
+
+
+
+
+
+  //////   notes pdf component 
+
+//   <Card className="gap-0">
+//   <CardHeader className="border-b border-border flex-row gap-4 justify-between  items-center">
+//     <View className="flex-row items-center justify-start gap-4">
+//       <Image
+//        source={require("../assets/images/pdf2.png")}
+//        style={{ width: 24, height: 24, resizeMode:'contain' }}
+//      />
+//      <CardTitle className="font-medium text-md">
+//        Chapter 1 Foundations of Mathematics
+//      </CardTitle>
+//    </View>
+//    {/* <View className="border border-border rounded-lg p-1">
+//      <Download size={15} color={"gray"} />
+//    </View> */}
+//  </CardHeader>
+//  <CardContent className="h-28 justify-center items-center ">
+//    <Image source={require("../assets/images/pdf2.png")} style={{width:'100%' , height:'100%' , resizeMode:'cover'}} />
+//  </CardContent>
+//  <CardFooter className=" flex-row justify-start items-center  py-1 gap-2 border-t border-border">
+//    <Avatar
+//      alt="Zach Nugent's Avatar "
+//      asChild={false}
+//      className="bg-gray-200 size-6"
+//    >
+//      <AvatarImage source={{ uri: GITHUB_AVATAR_URI }} />
+//      <AvatarFallback>
+//        <Text className="text-red-400">ZN</Text>
+//      </AvatarFallback>
+//    </Avatar>
+//    <View className="flex-row gap-2">
+//      <CardTitle className="text-sm text-secondary_foreground">
+//        Uploaded by Manjunath R
+//      </CardTitle>
+//      <CardTitle className="text-sm text-secondary_foreground">
+//        July 22, 2024
+//      </CardTitle>
+//    </View>
+//  </CardFooter>
+// </Card>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////// code is here
+
+
+
+// import { View, Text, SafeAreaView, Animated, Dimensions } from "react-native";
+// import React, { useState } from "react";
+// import { SlidersHorizontal } from "lucide-react-native";
+// import { Card } from "@/components/ui/card";
+// import {
+//   CardContent,
+//   CardFooter,
+//   CardHeader,
+// } from "@/components/ui/CardPercent";
+// import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+// import { TouchableOpacity } from "react-native";
+// import Select from "@/components/ui/select";
+// import BottomDrawer from '../SideDrawer'
+
+// const GITHUB_AVATAR_URI =
+//   "data:image/jpeg;base64,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";
+
+//   const { height } = Dimensions.get('window'); // Use height for vertical sliding
+
+// const Trying = () => {
+
+//   const [modalVisible, setModalVisible] = useState(false);
+//   const [slideAnim] = useState(new Animated.Value(height)); // Initial value for the sliding animation
+
+//   const openDrawer = () => {
+//     setModalVisible(true);
+//     Animated.timing(slideAnim, {
+//       toValue: 0, // Slide the drawer to its final position
+//       duration: 300,
+//       useNativeDriver: true,
+//     }).start();
+//   };
+
+//   const closeDrawer = () => {
+//     Animated.timing(slideAnim, {
+//       toValue: height, // Slide the drawer back out of view
+//       duration: 300,
+//       useNativeDriver: true,
+//     }).start(() => setModalVisible(false)); // Close the modal after the animation finishes
+//   };
+
+//   return (
+//     <SafeAreaView className="px-4 mt-10">
+//       <View className="gap-5">
+//         <Text className="font-normal text-base">
+//           Detailed Examination Schedule for All Subjects
+//         </Text>
+//         <View className="flex-row justify-end items-end">
+//           <TouchableOpacity
+//           // onPress={()=> Modal}
+//           >
+//           <SlidersHorizontal className="flex-1" color={"black"} size={20} />
+//           </TouchableOpacity>
+
+//       {/* <Modal
+//         transparent={true}
+//         visible={modalVisible}
+//         onRequestClose={closeDrawer}
+//       >
+//         <TouchableOpacity
+//           style={styles.overlay}
+//           onPress={closeDrawer}
+//         />
+//         <Animated.View style={[styles.drawer, { transform: [{ translateY: slideAnim }] }]}>
+//           <Text style={styles.drawerText}>Drawer Content</Text>
+//           <TouchableOpacity onPress={closeDrawer} style={styles.buttonClose}>
+//             <Text style={styles.buttonText}>Close Drawer</Text>
+//           </TouchableOpacity>
+//         </Animated.View>
+//       </Modal>
+//     </View>
+//   );
+// } */}
+
+//         </View>
+//         <View className="flex-row gap-5   justify-center">
+
+//           <Card className="flex-col gap-0 p-0 flex-1">
+//             <View className="">
+//               <CardHeader className="px-4 py-0 pt-2.5">
+//                 <View className="flex-row gap-2 items-center">
+//                   <View className="size-6 bg-red-200 rounded-full"></View>
+//                   <View>
+//                     <Text className="font-semibold text-base">IT Skill</Text>
+//                     <Text className="text-secondary_foreground font-medium text-xs">
+//                       20CSG46T
+//                     </Text>
+//                   </View>
+//                 </View>
+//               </CardHeader>
+//             </View>
+//             <CardContent className="px-4 py-3">
+//               <View className="gap-1.5">
+//                 <Text className="font-normal text-sm">
+//                   Tuesday, 16th August
+//                 </Text>
+//                 <Text className="font-normal text-sm">9:00 AM - 12:00 PM</Text>
+//                 <Text className="font-normal text-sm text-secondary_foreground">
+//                   Test type - Practical
+//                 </Text>
+//                 <Text className="font-normal text-sm text-secondary_foreground">
+//                   Test Name - Skill test 1
+//                 </Text>
+//               </View>
+//             </CardContent>
+//             <CardFooter className="items-start gap-2.5  border-t border-border px-4 py-1.5">
+//               <View>
+//                 <Avatar
+//                   asChild={false}
+//                   className="bg-gray-200 size-6"
+//                   alt="Zach Nugent's Ava
+//                   tar"
+//                 >
+//                   <AvatarImage src="https://avatars.dicebear.com/api/initials/ZN.svg" />
+//                   <AvatarFallback>
+//                     <Text className="text-red-400">ZN</Text>
+//                   </AvatarFallback>
+//                 </Avatar>
+//               </View>
+//               <View className="gap-1 flex-col">
+//                 <Text className="font-normal text-xs text-secondary_foreground">
+//                   You Uploaded
+//                 </Text>
+//                 <Text className="font-normal text-xs text-secondary_foreground">
+//                   Jan 20,2024
+//                 </Text>
+//               </View>
+//             </CardFooter>
+//           </Card>
+
+//           <Card className="flex-col gap-0 p-0 flex-1">
+//             <View className="">
+//               <CardHeader className="px-4 py-0 pt-2.5">
+//                 <View className="flex-row gap-2 items-center">
+//                   <View className="size-6 bg-blue-200 rounded-full"></View>
+//                   <View>
+//                     <Text className="font-semibold text-base">Mathamatics</Text>
+//                     <Text className="text-secondary_foreground font-medium text-xs">
+//                       20CSG46T
+//                     </Text>
+//                   </View>
+//                 </View>
+//               </CardHeader>
+//             </View>
+//             <CardContent className="px-4 py-3">
+//               <View className="gap-1.5">
+//                 <Text className="font-normal text-sm">
+//                   Tuesday, 16th August
+//                 </Text>
+//                 <Text className="font-normal text-sm">9:00 AM - 12:00 PM</Text>
+//                 <Text className="font-normal text-sm text-secondary_foreground">
+//                   Test type - Practical
+//                 </Text>
+//                 <Text className="font-normal text-sm text-secondary_foreground">
+//                   Test Name - Skill test 1
+//                 </Text>
+//               </View>
+//             </CardContent>
+//             <CardFooter className="items-start gap-2.5  border-t border-border px-4 py-1.5">
+//               <View>
+//                 <Avatar
+//                   asChild={false}
+//                   className="bg-gray-200 size-6"
+//                   alt="Zach Nugent's Ava
+//                   tar"
+//                 >
+//                   <AvatarImage src="https://avatars.dicebear.com/api/initials/ZN.svg" />
+//                   <AvatarFallback>
+//                     <Text className="text-red-400">ZN</Text>
+//                   </AvatarFallback>
+//                 </Avatar>
+//               </View>
+//               <View className="gap-1 flex-col">
+//                 <Text className="font-normal text-xs text-secondary_foreground">
+//                   You Uploaded
+//                 </Text>
+//                 <Text className="font-normal text-xs text-secondary_foreground">
+//                   Jan 20,2024
+//                 </Text>
+//               </View>
+//             </CardFooter>
+//           </Card>
+
+//         </View>
+//       </View>
+//     </SafeAreaView>
+//   );
+// };
+
+// export default Trying;
+
+// import { View, Text, SafeAreaView } from "react-native";
+// import React from "react";
+// import { SlidersHorizontal } from "lucide-react-native";
+// import { Card, CardHeader } from "@/components/ui/card";
+// import { CardContent } from "@/components/ui/CardPercent";
+
+// const Trying = () => {
+//   const Pass = () => {
+//     return (
+//       <View className="w-6 h-6 bg-[#34C759] opacity-15 border border-[#34C759] rounded items-center justify-center">
+//         <Text className="text-green-900">P</Text>
+//       </View>
+//     );
+//   };
+
+//   const Fail = () => {
+//     return (
+//       <View className="w-6 h-6 bg-[#FF3B30] opacity-15 border border-[#FF3B30] rounded items-center justify-center">
+//         <Text className="text-red-900 ">F</Text>
+//       </View>
+//     );
+//   };
+
+//   return (
+//     <SafeAreaView className="px-4 mt-10">
+//       <View className="gap-5">
+//         <View>
+//           <Text>Calculated weightage of all your Subjects</Text>
+//         </View>
+//         <View className="items-end">
+//           <SlidersHorizontal className="flex-1" color={"black"} size={20} />
+//         </View>
+//         {/* CARDS STARTS FROM HERE  */}
+
+//         <Card className="w-full p-3 gap-6">
+//           <CardHeader className="justify-between">
+//             <View className="flex-row gap-2 items-center">
+//               <View className="size-6 bg-red-200 rounded-full"></View>
+//               <View>
+//                 <Text className="font-semibold text-base">Mathamatics</Text>
+//               </View>
+//             </View>
+//             <Pass />
+//           </CardHeader>
+//           <CardContent className="gap-2.5 px-0 py-0 pl-8">
+//             <Text className="font-medium text-sm">IA marks : 36/40</Text>
+//             <Text className="font-medium text-sm">External marks : 46/60</Text>
+//             <Text className="font-normal text-sm">
+//               <Text className="font-medium">Total :</Text> 78/100
+//             </Text>
+//           </CardContent>
+//         </Card>
+
+//         <Card className="w-full p-3 gap-6">
+//           <CardHeader className="justify-between">
+//             <View className="flex-row gap-2 items-center">
+//               <View className="size-6 bg-blue-200 rounded-full"></View>
+//               <View>
+//                 <Text className="font-semibold text-base">
+//                   Project Management
+//                 </Text>
+//               </View>
+//             </View>
+//             <Fail />
+//           </CardHeader>
+//           <CardContent className="gap-2.5 px-0 py-0 pl-8">
+//             <Text className="font-medium text-sm">IA marks : 36/40</Text>
+//             <Text className="font-medium text-sm">External marks : 46/60</Text>
+//             <Text className="font-normal text-sm">
+//               <Text className="font-medium">Total :</Text> 78/100
+//             </Text>
+//           </CardContent>
+//         </Card>
+//       </View>
+//     </SafeAreaView>
+//   );
+// };
+
+// export default Trying;
+
+
+
+
